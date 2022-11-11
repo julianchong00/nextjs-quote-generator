@@ -17,7 +17,7 @@ export default function QuotePage() {
   };
 
   useEffect(() => {
-    console.log("QutoeDisplay useEffect called");
+    callQuoteAPI();
   }, []);
 
   return (
