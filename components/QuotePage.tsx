@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import QuoteDisplay from "./QuoteDisplay";
 import { QuoteData } from "./types/types";
+import { FaDiceFive } from "react-icons/fa";
 
 export default function QuotePage() {
   const [quote, setQuote] = useState({} as QuoteData);
@@ -22,15 +23,15 @@ export default function QuotePage() {
 
   return (
     <div className="flex flex-col justify-center items-center w-screen">
+      <QuoteDisplay {...quote} />
       <div className="py-3">
         <button
-          className="border-solid rounded-md bg-slate-500 hover:bg-slate-700 p-2"
+          className="border-solid rounded-full bg-slate-500 hover:bg-slate-700 p-2"
           onClick={callQuoteAPI}
         >
-          Click Me
+          <FaDiceFive />
         </button>
       </div>
-      <QuoteDisplay {...quote} />
     </div>
   );
 }
