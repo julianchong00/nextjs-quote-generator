@@ -22,16 +22,14 @@ export default function QuotePage() {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center w-screen">
+    <div className="flex flex-col justify-center items-center h-[95vh] gap-2">
       <QuoteDisplay {...quote} />
-      <div className="py-3">
-        <button
-          className="border-solid rounded-full bg-slate-500 hover:bg-slate-700 p-2"
-          onClick={callQuoteAPI}
-        >
-          <FaDiceFive />
-        </button>
-      </div>
+      <button
+        className="border-solid rounded-full bg-slate-500 hover:bg-slate-700 p-3 -mt-5 scale-125"
+        onClick={callQuoteAPI}
+      >
+        <FaDiceFive />
+      </button>
     </div>
   );
 }
