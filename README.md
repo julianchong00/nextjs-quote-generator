@@ -4,7 +4,7 @@
 
 A simple random quote generator that uses the [Quotable API](https://github.com/lukePeavey/quotable) to fetch quotes.
 
-https://nextjs-quote-generator.vercel.app/
+<https://nextjs-quote-generator.vercel.app/>
 
 ## Built With
 
@@ -44,6 +44,8 @@ pnpm install
 ```sh
 pnpm dev
 ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## License
 
