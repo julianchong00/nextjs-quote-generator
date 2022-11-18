@@ -8,10 +8,10 @@ A simple random quote generator that uses the [Quotable API](https://github.com/
 
 ## Built With
 
-- [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
-- [React](https://reactjs.org/) - Component-based UI framework for JS
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
-- [React Icons](https://react-icons.github.io/react-icons/) - Icon set
+-   [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
+-   [React](https://reactjs.org/) - Component-based UI framework for JS
+-   [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+-   [React Icons](https://react-icons.github.io/react-icons/) - Icon set
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- pnpm
+-   pnpm
 
 ```sh
 npm install -g pnpm
